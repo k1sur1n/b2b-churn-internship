@@ -5,7 +5,8 @@ __pycache__/
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/clients.xlsx
-!data/raw/usage.xlsx
+!data/raw/usage/
+!data/raw/usage/*.csv
 data/processed/*
 !data/processed/.gitkeep
 .DS_Store
