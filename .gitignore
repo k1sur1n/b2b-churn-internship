@@ -2,11 +2,17 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Исходные данные коммитятся (они часть учебного репозитория)
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/clients.xlsx
 !data/raw/usage/
 !data/raw/usage/*.csv
+
+# Всё, что генерируется кодом, в git не попадает.
+# В PR идёт код сборки, ревьюер получает файлы сам.
 data/processed/*
 !data/processed/.gitkeep
+
 .DS_Store
